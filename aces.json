@@ -1,0 +1,138 @@
+{
+  "custom": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "show-message",
+        "scriptName": "ShowMessage",
+        "highlight": true,
+        "params": [
+          {
+            "id": "title",
+            "type": "string"
+          },
+          {
+            "id": "position",
+            "type": "string"
+          },
+          {
+            "id": "msg",
+            "type": "string"
+          },
+          {
+            "id": "timeout",
+            "type": "number",
+            "initialValue": "5000"
+          },
+          {
+            "id": "theme",
+            "type": "string",
+            "initialValue": "dark"
+          }
+        ]
+      },
+      {
+        "id": "show-info-message",
+        "scriptName": "ShowInfoMessage",
+        "highlight": false,
+        "params": [
+          {
+            "id": "title",
+            "type": "string"
+          },
+          {
+            "id": "position",
+            "type": "string"
+          },
+          {
+            "id": "msg",
+            "type": "string"
+          },
+          {
+            "id": "timeout",
+            "type": "number",
+            "initialValue": "5000"
+          }
+        ]
+      },
+      {
+        "id": "show-success-message",
+        "scriptName": "ShowSuccessMessage",
+        "highlight": false,
+        "params": [
+          {
+            "id": "title",
+            "type": "string"
+          },
+          {
+            "id": "position",
+            "type": "string"
+          },
+          {
+            "id": "msg",
+            "type": "string"
+          },
+          {
+            "id": "timeout",
+            "type": "number",
+            "initialValue": "5000"
+          }
+        ]
+      },
+      {
+        "id": "show-warning-message",
+        "scriptName": "ShowWarningMessage",
+        "highlight": false,
+        "params": [
+          {
+            "id": "title",
+            "type": "string"
+          },
+          {
+            "id": "position",
+            "type": "string"
+          },
+          {
+            "id": "msg",
+            "type": "string"
+          },
+          {
+            "id": "timeout",
+            "type": "number",
+            "initialValue": "5000"
+          }
+        ]
+      },
+      {
+        "id": "show-error-message",
+        "scriptName": "ShowErrorMessage",
+        "highlight": false,
+        "params": [
+          {
+            "id": "title",
+            "type": "string"
+          },
+          {
+            "id": "position",
+            "type": "string"
+          },
+          {
+            "id": "msg",
+            "type": "string"
+          },
+          {
+            "id": "timeout",
+            "type": "number",
+            "initialValue": "5000"
+          }
+        ]
+      },
+      {
+        "id": "delete-message",
+        "scriptName": "DeleteMessage",
+        "highlight": false
+      }
+    ],
+    "expressions": []
+  }
+}

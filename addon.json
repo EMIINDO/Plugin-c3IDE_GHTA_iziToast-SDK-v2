@@ -1,0 +1,36 @@
+{
+  "is-c3-addon": true,
+  "sdk-version": 2,
+  "min-construct-version": "r401",
+  "type": "plugin",
+  "name": "GHTA iziToast",
+  "id": "c3IDE_GHTA_iziToast",
+  "version": "1.0.0.0",
+  "author": "gianghl1983",
+  "website": "https://www.construct.net",
+  "documentation": "https://www.construct.net",
+  "description": "Simple Wrapper for izyToast library",
+  "editor-scripts": [
+    "plugin.js",
+    "type.js",
+    "instance.js"
+  ],
+  "file-list": [
+    "c3runtime/main.js",
+    "c3runtime/plugin.js",
+    "c3runtime/type.js",
+    "c3runtime/instance.js",
+    "c3runtime/conditions.js",
+    "c3runtime/actions.js",
+    "c3runtime/expressions.js",
+    "lang/en-US.json",
+    "aces.json",
+    "addon.json",
+    "icon.svg",
+    "instance.js",
+    "plugin.js",
+    "type.js",
+    "iziToast.css",
+    "iziToast.js"
+  ]
+}

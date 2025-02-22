@@ -1,0 +1,145 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for GHTA iziToast Plugin",
+  "text": {
+    "plugins": {
+      "c3ide_ghta_izitoast": {
+        "name": "GHTA iziToast",
+        "description": "Simple Wrapper for izyToast library",
+        "help-url": "https://github.com/armandoalonso/c3IDE",
+        "properties": {},
+        "aceCategories": {
+          "custom": "Custom"
+        },
+        "conditions": {},
+        "actions": {
+          "show-message": {
+            "list-name": "Show Message",
+            "description": "Show a configurable message",
+            "display-text": "Show {0} at {1} content {2} in {3} ms and switch {4}",
+            "params": {
+              "title": {
+                "name": "Title",
+                "desc": "Title of Message"
+              },
+              "position": {
+                "name": "Position",
+                "desc": "Use: center, bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter"
+              },
+              "msg": {
+                "name": "Msg",
+                "desc": "Main content"
+              },
+              "timeout": {
+                "name": "Timeout",
+                "desc": "Timeout of message, default 5,000 ms"
+              },
+              "theme": {
+                "name": "Theme",
+                "desc": "'light' or 'dark'"
+              }
+            }
+          },
+          "show-info-message": {
+            "list-name": "Show Info. Message",
+            "description": "Show a info. message",
+            "display-text": "Show INFO {0} at {1} content {2} in {3} ms",
+            "params": {
+              "title": {
+                "name": "Title",
+                "desc": "Title of Message"
+              },
+              "position": {
+                "name": "Position",
+                "desc": "Use: center, bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter"
+              },
+              "msg": {
+                "name": "Msg",
+                "desc": "Main content"
+              },
+              "timeout": {
+                "name": "Timeout",
+                "desc": "Timeout of message, default 5,000 ms"
+              }
+            }
+          },
+          "show-success-message": {
+            "list-name": "Show Success Message",
+            "description": "Show a success message",
+            "display-text": "Show SUCCESS {0} at {1} content {2} in {3} ms",
+            "params": {
+              "title": {
+                "name": "Title",
+                "desc": "Title of Message"
+              },
+              "position": {
+                "name": "Position",
+                "desc": "Use: center, bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter"
+              },
+              "msg": {
+                "name": "Msg",
+                "desc": "Main content"
+              },
+              "timeout": {
+                "name": "Timeout",
+                "desc": "Timeout of message, default 5,000 ms"
+              }
+            }
+          },
+          "show-warning-message": {
+            "list-name": "Show Warning Message",
+            "description": "Show a warning message",
+            "display-text": "Show WARNING {0} at {1} content {2} in {3} ms",
+            "params": {
+              "title": {
+                "name": "Title",
+                "desc": "Title of Message"
+              },
+              "position": {
+                "name": "Position",
+                "desc": "Use: center, bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter"
+              },
+              "msg": {
+                "name": "Msg",
+                "desc": "Main content"
+              },
+              "timeout": {
+                "name": "Timeout",
+                "desc": "Timeout of message, default 5,000 ms"
+              }
+            }
+          },
+          "show-error-message": {
+            "list-name": "Show Error Message",
+            "description": "Show a error message",
+            "display-text": "Show ERROR {0} at {1} content {2} in {3} ms",
+            "params": {
+              "title": {
+                "name": "Title",
+                "desc": "Title of Message"
+              },
+              "position": {
+                "name": "Position",
+                "desc": "Use: center, bottomRight, bottomLeft, topRight, topLeft, topCenter, bottomCenter"
+              },
+              "msg": {
+                "name": "Msg",
+                "desc": "Main content"
+              },
+              "timeout": {
+                "name": "Timeout",
+                "desc": "Timeout of message, default 5,000 ms"
+              }
+            }
+          },
+          "delete-message": {
+            "list-name": "Delete Message",
+            "display-text": "Delete all toast messages",
+            "description": "Just delete all toast messages"
+          }
+        },
+        "expressions": {}
+      }
+    }
+  }
+}
